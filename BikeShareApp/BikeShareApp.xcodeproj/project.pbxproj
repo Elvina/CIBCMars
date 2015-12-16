@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5C12CEB1BFE565B001BB283 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C12CEA1BFE565B001BB283 /* AppDelegate.swift */; };
+		B5C12CED1BFE565B001BB283 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C12CEC1BFE565B001BB283 /* ViewController.swift */; };
+		B5C12CF01BFE565B001BB283 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C12CEE1BFE565B001BB283 /* Main.storyboard */; };
+		B5C12CF21BFE565B001BB283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C12CF11BFE565B001BB283 /* Assets.xcassets */; };
+		B5C12CF51BFE565B001BB283 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C12CF31BFE565B001BB283 /* LaunchScreen.storyboard */; };
+		B5C12D001BFE565B001BB283 /* BikeShareAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C12CFF1BFE565B001BB283 /* BikeShareAppTests.swift */; };
+		B5C12D0B1BFE565B001BB283 /* BikeShareAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C12D0A1BFE565B001BB283 /* BikeShareAppUITests.swift */; };
+		B5C12D1A1BFE5905001BB283 /* MapPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C12D191BFE5905001BB283 /* MapPin.swift */; };
+		B5C12D1C1BFE5A5E001BB283 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C12D1B1BFE5A5E001BB283 /* Station.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5C12CFC1BFE565B001BB283 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5C12CDF1BFE565B001BB283 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5C12CE61BFE565B001BB283;
+			remoteInfo = BikeShareApp;
+		};
+		B5C12D071BFE565B001BB283 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5C12CDF1BFE565B001BB283 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5C12CE61BFE565B001BB283;
+			remoteInfo = BikeShareApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5C12CE71BFE565B001BB283 /* BikeShareApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikeShareApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C12CEA1BFE565B001BB283 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5C12CEC1BFE565B001BB283 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5C12CEF1BFE565B001BB283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5C12CF11BFE565B001BB283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5C12CF41BFE565B001BB283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5C12CF61BFE565B001BB283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5C12CFB1BFE565B001BB283 /* BikeShareAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BikeShareAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C12CFF1BFE565B001BB283 /* BikeShareAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeShareAppTests.swift; sourceTree = "<group>"; };
+		B5C12D011BFE565B001BB283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5C12D061BFE565B001BB283 /* BikeShareAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BikeShareAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C12D0A1BFE565B001BB283 /* BikeShareAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeShareAppUITests.swift; sourceTree = "<group>"; };
+		B5C12D0C1BFE565B001BB283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5C12D191BFE5905001BB283 /* MapPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPin.swift; sourceTree = "<group>"; };
+		B5C12D1B1BFE5A5E001BB283 /* Station.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5C12CE41BFE565B001BB283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C12CF81BFE565B001BB283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C12D031BFE565B001BB283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5C12CDE1BFE565B001BB283 = {
+			isa = PBXGroup;
+			children = (
+				B5C12CE91BFE565B001BB283 /* BikeShareApp */,
+				B5C12CFE1BFE565B001BB283 /* BikeShareAppTests */,
+				B5C12D091BFE565B001BB283 /* BikeShareAppUITests */,
+				B5C12CE81BFE565B001BB283 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5C12CE81BFE565B001BB283 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5C12CE71BFE565B001BB283 /* BikeShareApp.app */,
+				B5C12CFB1BFE565B001BB283 /* BikeShareAppTests.xctest */,
+				B5C12D061BFE565B001BB283 /* BikeShareAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5C12CE91BFE565B001BB283 /* BikeShareApp */ = {
+			isa = PBXGroup;
+			children = (
+				B5C12D181BFE58DE001BB283 /* Model */,
+				B5C12CEA1BFE565B001BB283 /* AppDelegate.swift */,
+				B5C12CEC1BFE565B001BB283 /* ViewController.swift */,
+				B5C12CEE1BFE565B001BB283 /* Main.storyboard */,
+				B5C12CF11BFE565B001BB283 /* Assets.xcassets */,
+				B5C12CF31BFE565B001BB283 /* LaunchScreen.storyboard */,
+				B5C12CF61BFE565B001BB283 /* Info.plist */,
+			);
+			path = BikeShareApp;
+			sourceTree = "<group>";
+		};
+		B5C12CFE1BFE565B001BB283 /* BikeShareAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5C12CFF1BFE565B001BB283 /* BikeShareAppTests.swift */,
+				B5C12D011BFE565B001BB283 /* Info.plist */,
+			);
+			path = BikeShareAppTests;
+			sourceTree = "<group>";
+		};
+		B5C12D091BFE565B001BB283 /* BikeShareAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5C12D0A1BFE565B001BB283 /* BikeShareAppUITests.swift */,
+				B5C12D0C1BFE565B001BB283 /* Info.plist */,
+			);
+			path = BikeShareAppUITests;
+			sourceTree = "<group>";
+		};
+		B5C12D181BFE58DE001BB283 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5C12D191BFE5905001BB283 /* MapPin.swift */,
+				B5C12D1B1BFE5A5E001BB283 /* Station.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5C12CE61BFE565B001BB283 /* BikeShareApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5C12D0F1BFE565B001BB283 /* Build configuration list for PBXNativeTarget "BikeShareApp" */;
+			buildPhases = (
+				B5C12CE31BFE565B001BB283 /* Sources */,
+				B5C12CE41BFE565B001BB283 /* Frameworks */,
+				B5C12CE51BFE565B001BB283 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BikeShareApp;
+			productName = BikeShareApp;
+			productReference = B5C12CE71BFE565B001BB283 /* BikeShareApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5C12CFA1BFE565B001BB283 /* BikeShareAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5C12D121BFE565B001BB283 /* Build configuration list for PBXNativeTarget "BikeShareAppTests" */;
+			buildPhases = (
+				B5C12CF71BFE565B001BB283 /* Sources */,
+				B5C12CF81BFE565B001BB283 /* Frameworks */,
+				B5C12CF91BFE565B001BB283 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5C12CFD1BFE565B001BB283 /* PBXTargetDependency */,
+			);
+			name = BikeShareAppTests;
+			productName = BikeShareAppTests;
+			productReference = B5C12CFB1BFE565B001BB283 /* BikeShareAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5C12D051BFE565B001BB283 /* BikeShareAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5C12D151BFE565B001BB283 /* Build configuration list for PBXNativeTarget "BikeShareAppUITests" */;
+			buildPhases = (
+				B5C12D021BFE565B001BB283 /* Sources */,
+				B5C12D031BFE565B001BB283 /* Frameworks */,
+				B5C12D041BFE565B001BB283 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5C12D081BFE565B001BB283 /* PBXTargetDependency */,
+			);
+			name = BikeShareAppUITests;
+			productName = BikeShareAppUITests;
+			productReference = B5C12D061BFE565B001BB283 /* BikeShareAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5C12CDF1BFE565B001BB283 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Elvina Tse";
+				TargetAttributes = {
+					B5C12CE61BFE565B001BB283 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					B5C12CFA1BFE565B001BB283 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = B5C12CE61BFE565B001BB283;
+					};
+					B5C12D051BFE565B001BB283 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = B5C12CE61BFE565B001BB283;
+					};
+				};
+			};
+			buildConfigurationList = B5C12CE21BFE565B001BB283 /* Build configuration list for PBXProject "BikeShareApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5C12CDE1BFE565B001BB283;
+			productRefGroup = B5C12CE81BFE565B001BB283 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5C12CE61BFE565B001BB283 /* BikeShareApp */,
+				B5C12CFA1BFE565B001BB283 /* BikeShareAppTests */,
+				B5C12D051BFE565B001BB283 /* BikeShareAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5C12CE51BFE565B001BB283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C12CF51BFE565B001BB283 /* LaunchScreen.storyboard in Resources */,
+				B5C12CF21BFE565B001BB283 /* Assets.xcassets in Resources */,
+				B5C12CF01BFE565B001BB283 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C12CF91BFE565B001BB283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C12D041BFE565B001BB283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5C12CE31BFE565B001BB283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C12D1A1BFE5905001BB283 /* MapPin.swift in Sources */,
+				B5C12CED1BFE565B001BB283 /* ViewController.swift in Sources */,
+				B5C12D1C1BFE5A5E001BB283 /* Station.swift in Sources */,
+				B5C12CEB1BFE565B001BB283 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C12CF71BFE565B001BB283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C12D001BFE565B001BB283 /* BikeShareAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C12D021BFE565B001BB283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C12D0B1BFE565B001BB283 /* BikeShareAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5C12CFD1BFE565B001BB283 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5C12CE61BFE565B001BB283 /* BikeShareApp */;
+			targetProxy = B5C12CFC1BFE565B001BB283 /* PBXContainerItemProxy */;
+		};
+		B5C12D081BFE565B001BB283 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5C12CE61BFE565B001BB283 /* BikeShareApp */;
+			targetProxy = B5C12D071BFE565B001BB283 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5C12CEE1BFE565B001BB283 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5C12CEF1BFE565B001BB283 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5C12CF31BFE565B001BB283 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5C12CF41BFE565B001BB283 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5C12D0D1BFE565B001BB283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5C12D0E1BFE565B001BB283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5C12D101BFE565B001BB283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BikeShareApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cibcmars.BikeShareApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B5C12D111BFE565B001BB283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BikeShareApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cibcmars.BikeShareApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B5C12D131BFE565B001BB283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BikeShareAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cibcmars.BikeShareAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BikeShareApp.app/BikeShareApp";
+			};
+			name = Debug;
+		};
+		B5C12D141BFE565B001BB283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BikeShareAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cibcmars.BikeShareAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BikeShareApp.app/BikeShareApp";
+			};
+			name = Release;
+		};
+		B5C12D161BFE565B001BB283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BikeShareAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cibcmars.BikeShareAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BikeShareApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B5C12D171BFE565B001BB283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BikeShareAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cibcmars.BikeShareAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BikeShareApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5C12CE21BFE565B001BB283 /* Build configuration list for PBXProject "BikeShareApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C12D0D1BFE565B001BB283 /* Debug */,
+				B5C12D0E1BFE565B001BB283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5C12D0F1BFE565B001BB283 /* Build configuration list for PBXNativeTarget "BikeShareApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C12D101BFE565B001BB283 /* Debug */,
+				B5C12D111BFE565B001BB283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5C12D121BFE565B001BB283 /* Build configuration list for PBXNativeTarget "BikeShareAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C12D131BFE565B001BB283 /* Debug */,
+				B5C12D141BFE565B001BB283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5C12D151BFE565B001BB283 /* Build configuration list for PBXNativeTarget "BikeShareAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C12D161BFE565B001BB283 /* Debug */,
+				B5C12D171BFE565B001BB283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5C12CDF1BFE565B001BB283 /* Project object */;
+}
